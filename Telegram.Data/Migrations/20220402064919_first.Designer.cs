@@ -10,8 +10,8 @@ using Telegram.Data.Contexts;
 namespace Telegram.Data.Migrations
 {
     [DbContext(typeof(TelegramDbContext))]
-    [Migration("20220317122059_second")]
-    partial class second
+    [Migration("20220402064919_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
