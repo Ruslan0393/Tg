@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Telegram.Data\Telegram.Data.csproj" />
+    <ProjectReference Include="..\Telegram.Domain\Telegram.Domain.csproj" />
+    <ProjectReference Include="..\Telegram.ViewModel\Telegram.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
